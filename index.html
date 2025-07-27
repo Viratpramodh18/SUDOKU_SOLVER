@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Sudoku Solver Pro</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="app-container">
+        <h1>AI Sudoku Solver</h1>
+        <div id="controls-container">
+            <div class="control-group">
+                <button id="generate-btn">New Puzzle</button>
+                <select id="difficulty-select">
+                    <option value="easy">Easy</option>
+                    <option value="medium">Medium</option>
+                    <option value="hard">Hard</option>
+                    <option value="expert">Expert</option>
+                </select>
+            </div>
+            <div class="control-group">
+                <button id="solve-btn">Solve</button>
+                <button id="give-up-btn">Give Up</button>
+                <button id="hint-btn">Hint</button>
+                <button id="validate-btn">Validate</button>
+            </div>
+             <div class="control-group">
+                <button id="clear-btn">Clear</button>
+            </div>
+        </div>
+
+        <div id="sudoku-grid-container"></div>
+        
+        <div id="message-bar" class="message-bar">Ready to play!</div>
+    </div>
+</body>
+</html>
